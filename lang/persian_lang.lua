@@ -389,8 +389,8 @@ end
 
 return {
     patterns = {
-        '[!/#](install) (persian)$',
-        '[!/#](update) (persian)$'
+        '[!/#](persian)$',
+        '[!/#](persianup)$'
     },
     run = run
 }
