@@ -1,8 +1,3 @@
-
-============
-
-A Telegram Bot based on plugins using [tg](https://github.com/vysheng/tg).
-
 Bot Commands
 ------------
 <table>
@@ -97,12 +92,12 @@ Bot Commands
         </tr>
         <tr>
             <td>giverank.lua</td>
-            <td>#rank admin (reply): add admin by reply.<br>
-                #rank admin <user_id>/<user_name>: add admin by user ID/Username.<br>
-                #rank mod (reply): add mod by reply.<br>
-                #rank mod <user_id>/<user_name>: add mod by user ID/Username.<br>
-                #rank guest (reply): remove admin by reply.<br>
-                #rank guest <user_id>/<user_name>: remove admin by user ID/Username.<br>
+            <td>#tadmin (reply): add admin by reply.<br>
+                #tadmin <user_id>/<user_name>: add admin by user ID/Username.<br>
+                #tmod (reply): add mod by reply.<br>
+                #tmod <user_id>/<user_name>: add mod by user ID/Username.<br>
+                #uadmin (reply): remove admin by reply.<br>
+                #uadmin <user_id>/<user_name>: remove admin by user ID/Username.<br>
                 #admins: list of all admin members.<br>
                 #mods: list of all mod members.<br>
                 #members: list of all channel members.
@@ -190,7 +185,6 @@ Bot Commands
     </tbody>
 </table>
 
-[Installation](https://github.com/yagop/telegram-bot/wiki/Installation)
 ------------
 ```bash
 # Tested on Ubuntu 14.04, for other OSs check out https://github.com/yagop/telegram-bot/wiki/Installation
