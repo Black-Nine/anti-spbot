@@ -1,18 +1,3 @@
---------------------------------------------------
---      ____  ____ _____                        --
---     |    \|  _ )_   _|___ ____   __  __      --
---     | |_  )  _ \ | |/ ·__|  _ \_|  \/  |     --
---     |____/|____/ |_|\____/\_____|_/\/\_|     --
---                                              --
---------------------------------------------------
---                                              --
---       Developers: @Josepdal & @MaSkAoS       --
---     Support: @Skneos,  @iicc1 & @serx666     --
---                                              --
---           Translated by: @NimaGame           --
---           Translated by: @Iamjavid           --
---                                              --
---------------------------------------------------
 local LANG = 'fa'
 
 local function run(msg, matches)
@@ -29,9 +14,9 @@ local function run(msg, matches)
         -------------
 
         -- global plugins --
-        set_text(LANG, 'require_sudo', 'این پلاگین نیاز به دسترسی سودو دارد.')
-        set_text(LANG, 'require_admin', 'این پلاگین نیاز به دسترسی ادمین و یا بالا تر دارد.')
-        set_text(LANG, 'require_mod', 'این پلاگین نیاز به دسترسی مدیر و یا بالا تر دارد.')
+        set_text(LANG, 'require_sudo', '❌این پلاگین نیاز به دسترسی سودو دارد.')
+        set_text(LANG, 'require_admin', '❌این پلاگین نیاز به دسترسی ادمین و یا بالا تر دارد.')
+        set_text(LANG, 'require_mod', '❌این پلاگین نیاز به دسترسی مدیر و یا بالا تر دارد.')
         
         -- welcome.lua
 	set_text(LANG, 'weloff', 'Welcome enabled.')
@@ -66,10 +51,10 @@ local function run(msg, matches)
         set_text(LANG, 'user', 'کاربر')
         set_text(LANG, 'isFlooding', 'درحال اسپم کردن است.')
 
-        set_text(LANG, 'noStickersT', 'استفاده از استیکر در این گروه ممنوع میباشد.')
-        set_text(LANG, 'noStickersL', 'استفاده از استیکر در این سوپر گروه ممنوع میباشد.')
-        set_text(LANG, 'stickersT', 'از این به بعد استفاده از استیکر در این گروه آزاد است.')
-        set_text(LANG, 'stickersL', 'از این به بعد استفاده از استیکر در این سوپر گروه آزاد است.')
+        set_text(LANG, 'noStickersT', '⛔️استفاده از استیکر در این گروه ممنوع میباشد.')
+        set_text(LANG, 'noStickersL', '⛔️استفاده از استیکر در این سوپر گروه ممنوع میباشد.')
+        set_text(LANG, 'stickersT', '✅️ این به بعد استفاده از استیکر در این گروه آزاد است.')
+        set_text(LANG, 'stickersL', '✅از این به بعد استفاده از استیکر در این سوپر گروه آزاد است.')
 
 	set_text(LANG, 'noTgservicesT', 'Telegram services muted in this chat.')
 	set_text(LANG, 'noTgservicesL', 'Telegram services muted in this supergroup.')
